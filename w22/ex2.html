@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+</head>
+<body>
+
+
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+<script>
+  $(document).ready(function(e){
+
+    $.getJSON('http://172.30.1.15:5555/WebstormProjects/w22/2team.json', function(arr) {
+      console.log(arr)
+    })
+
+  })
+
+</script>
+
+</body>
+</html>
